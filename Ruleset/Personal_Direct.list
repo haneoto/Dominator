@@ -1,3 +1,4 @@
+# 防误开虚拟网卡模式
 PROCESS-NAME,qbittorrent
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
