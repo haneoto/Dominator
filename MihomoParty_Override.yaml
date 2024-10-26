@@ -8,7 +8,7 @@ proxy-groups:
       - SG
       - US
     include-all: true
-  - name: bilibili [CN/HMT]
+  - name: bilibili-CN/HMT
     type: select
     proxies:
       - DIRECT
@@ -42,7 +42,7 @@ proxy-groups:
       - HK
       - SG
       - US
-  - name: SNS [CN]
+  - name: SNS-CN
     type: select
     proxies:    
       - DIRECT
@@ -320,11 +320,11 @@ rules:
   - "RULE-SET,Region_CN,DIRECT"
   - "RULE-SET,Cluster_Advertising,AD"
   - "RULE-SET,Cluster_HTTPDNS.Block,REJECT"
-  - "RULE-SET,Site_bilibili-HMT,bilibili [CN/HMT]"
+  - "RULE-SET,Site_bilibili-HMT,bilibili-CN/HMT"
   - "RULE-SET,Site_IQ,IQ"
   - "RULE-SET,Site_YouTube,YouTube"
   - "RULE-SET,Site_Netflix,Netflix" 
-  - "RULE-SET,Cluster_SNS-CN,SNS [CN]"
+  - "RULE-SET,Cluster_SNS-CN,SNS-CN"
   - "RULE-SET,Site_Amazon,Amazon"     
   - "RULE-SET,Site_WeTV,WeTV" 
   - "RULE-SET,Site_Viki,Viki" 
