@@ -1,0 +1,341 @@
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - JP
+      - TW
+      - HK
+      - SG
+      - US
+    include-all: true
+  - name: bilibili.com
+    type: select
+    proxies:
+      - DIRECT
+      - TW
+      - HK
+    include-all: true
+    filter: (?i)澳门|Macao|MO
+  - name: IQ
+    type: select
+    proxies:
+      - TW    
+      - SG
+      - HK
+    include-all: true
+    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
+  - name: YouTube
+    type: select
+    proxies:
+      - Proxies
+      - JP
+      - TW
+      - HK
+      - SG
+      - US
+  - name: Netflix
+    type: select
+    proxies:
+      - Proxies
+      - JP
+      - TW
+      - HK
+      - SG
+      - US
+  - name: SNS-CN
+    type: select
+    proxies:    
+      - DIRECT
+      - Proxies
+    include-all: true
+  - name: JP
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: select  
+  - name: TW
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: select
+  - name: HK
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: select
+  - name: SG
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: select
+  - name: US
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: select
+  - name: Amazon
+    type: select
+    proxies:
+      - Proxies
+      - JP
+      - US
+      - HK
+      - TW
+      - SG
+  - name: WeTV
+    type: select
+    proxies:
+      - Proxies
+      - SG
+      - TW
+      - HK
+      - JP
+      - US
+    include-all: true
+    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
+  - name: Viki
+    type: select
+    proxies:
+      - US
+      - JP
+      - TW
+      - HK
+      - SG
+    include-all: true            
+  - name: YOUKU
+    type: select
+    proxies:
+      - Proxies
+      - TW
+      - HK
+      - SG
+      - JP            
+      - US
+    include-all: true
+    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
+  - name: ABEMA
+    type: select
+    proxies:
+      - Proxies
+      - JP
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+  - name: X
+    type: select
+    proxies:
+      - Proxies
+      - JP
+      - TW
+      - HK
+      - US     
+      - SG
+    include-all: true
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxies
+      - SG
+      - JP
+      - TW
+      - HK     
+      - US
+    include-all: true
+  - name: AD
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - Proxies
+
+rule-providers:
+  Personal_Direct:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Personal_Direct.list
+    path: ./ruleset/Personal_Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
+  Personal_Reject:
+      url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Personal_Reject.list
+      path: ./ruleset/Personal_Reject.list
+      behavior: classical
+      interval: 86400
+      format: text
+      type: http
+  Personal_Proxy:
+      url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Personal_Proxy.list
+      path: ./ruleset/Personal_Proxy.list
+      behavior: classical
+      interval: 86400
+      format: text
+      type: http
+  Cluster_Local:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_Local.list
+    path: ./ruleset/Cluster_Local.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http  
+  Region_CN:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Region_CN.list
+    path: ./ruleset/Region_CN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Cluster_Advertising:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list
+    path: ./ruleset/Cluster_Advertising.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Cluster_HTTPDNS.Block:
+    url: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list
+    path: ./ruleset/Cluster_HTTPDNS.Block.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http    
+  Site_bilibili-HMT:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_bilibili-HMT.list
+    path: ./ruleset/Site_bilibili-HMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Site_IQ:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_IQ.list
+    path: ./ruleset/Site_IQ.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http   
+  Site_YouTube:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_YouTube.list
+    path: ./ruleset/Site_YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http   
+  Site_Netflix:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_Netflix.list
+    path: ./ruleset/Site_Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http     
+  Cluster_SNS-CN:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_SNS-CN.list
+    path: ./ruleset/Cluster_SNS-CN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
+  Site_Amazon:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_Amazon.list
+    path: ./ruleset/Site_Amazon.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http     
+  Site_WeTV:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_WeTV.list
+    path: ./ruleset/Site_WeTV.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
+  Site_Viki:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_Viki.list
+    path: ./ruleset/Site_Viki.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Site_YOUKU:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_YOUKU.list
+    path: ./ruleset/Site_YOUKU.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
+  Region_JP:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Region_JP.list
+    path: ./ruleset/Region_JP.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
+  Region_TW:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Region_TW.list
+    path: ./ruleset/Region_TW.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Region_HK:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Region_HK.list
+    path: ./ruleset/Region_HK.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http  
+  Region_SG:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Region_SG.list
+    path: ./ruleset/Region_SG.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http  
+  Site_AbemaTV:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_AbemaTV.list
+    path: ./ruleset/Site_AbemaTV.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Site_X:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_X.list
+    path: ./ruleset/Site_X.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http                                   
+  Site_Telegram:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_Telegram.list
+    path: ./ruleset/Site_Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
+  Cluster_Global:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_Global.list
+    path: ./ruleset/Cluster_Global.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http  
+
+rules:
+  - "RULE-SET,Personal_Direct,DIRECT"
+  - "RULE-SET,Personal_Reject,REJECT"
+  - "RULE-SET,Personal_Proxy,Proxies"
+  - "RULE-SET,Cluster_Local,DIRECT"  
+  - "RULE-SET,Region_CN,DIRECT"
+  - "RULE-SET,Cluster_Advertising,AD"
+  - "RULE-SET,Cluster_HTTPDNS.Block,REJECT"
+  - "RULE-SET,Site_bilibili-HMT,bilibili.com"
+  - "RULE-SET,Site_IQ,IQ"
+  - "RULE-SET,Site_YouTube,YouTube"
+  - "RULE-SET,Site_Netflix,Netflix" 
+  - "RULE-SET,Cluster_SNS-CN,Anti-IP"
+  - "RULE-SET,Site_Amazon,Amazon"     
+  - "RULE-SET,Site_WeTV,WeTV" 
+  - "RULE-SET,Site_Viki,Viki" 
+  - "RULE-SET,Site_YOUKU,YOUKU"
+  - "RULE-SET,Region_JP,JP"
+  - "RULE-SET,Region_TW,TW"
+  - "RULE-SET,Region_HK,HK"
+  - "RULE-SET,Region_SG,SG"
+  - "RULE-SET,Site_AbemaTV,ABEMA"
+  - "RULE-SET,Site_X,X"
+  - "RULE-SET,Site_Telegram,Telegram"
+  - "RULE-SET,Cluster_Global,Proxies"
+  - "GEOIP,CN,DIRECT"
+  - "MATCH,Proxies"

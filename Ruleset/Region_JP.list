@@ -1,0 +1,51 @@
+# > 5ch
+PROCESS-NAME,Siki.exe
+DOMAIN-SUFFIX,5ch.net
+DOMAIN-SUFFIX,bbspink.com
+
+# > DMM
+DOMAIN-SUFFIX,akabeesoft2.com
+DOMAIN-SUFFIX,akabeesoft3.com
+DOMAIN-SUFFIX,akatsukiworks.com
+DOMAIN-SUFFIX,alicesoft.com
+DOMAIN-SUFFIX,api-p.videomarket.jp
+DOMAIN-SUFFIX,cosmiccute.com
+DOMAIN-SUFFIX,ddo.jp
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmmapis.com
+DOMAIN-SUFFIX,dmmrex.com
+DOMAIN-SUFFIX,hibiki-site.com
+DOMAIN-SUFFIX,minori.ph
+DOMAIN-SUFFIX,navismithapis-cdn.com
+DOMAIN-SUFFIX,tenco.cc
+DOMAIN-SUFFIX,wheel-soft.com
+IP-CIDR,125.6.189.7/32,no-resolve
+IP-CIDR,203.104.209.7/32,no-resolve
+
+# > Hulu / フールー
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,streaks.jp
+DOMAIN-SUFFIX,yb.uncn.jp
+
+# > niconico
+DOMAIN-SUFFIX,dmc.nico
+DOMAIN-SUFFIX,nicodic.jp
+DOMAIN-SUFFIX,nicomanga.jp
+DOMAIN-SUFFIX,niconico.com
+DOMAIN-SUFFIX,nicoseiga.jp
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,simg.jp
+DOMAIN-SUFFIX,socdm.com
+
+# > TVer
+DOMAIN-SUFFIX,dogatch.jp
+DOMAIN-SUFFIX,edge.api.brightcove.com
+DOMAIN-SUFFIX,gorin.jp
+DOMAIN-SUFFIX,screens-lab.jp
+DOMAIN-SUFFIX,tver.co.jp
+DOMAIN-SUFFIX,tver.jp

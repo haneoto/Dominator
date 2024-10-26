@@ -1,0 +1,53 @@
+# > Bahamut
+DOMAIN,bahamut.akamaized.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,viblast.com
+
+# > KKTV
+USER-AGENT,KKTV*
+USER-AGENT,com.kktv.ios.kktv*
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN-SUFFIX,kktv.me
+DOMAIN,kktv-theater.kk.stream
+DOMAIN,theater-kktv.cdn.hinet.net
+
+# > LINE TV
+DOMAIN,d17lx9ucc6k9fc.cloudfront.net
+DOMAIN,d3pgb93pk7bvxj.cloudfront.net
+DOMAIN,d3vm9lcxb6xcm4.cloudfront.net
+DOMAIN-SUFFIX,chocotv.com.tw
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,linetv.tw
+PROCESS-NAME,com.linecorp.linetv
+
+# > friDay
+USER-AGENT,friDay*
+DOMAIN-SUFFIX,friday.tw
+
+# > CATCHPLAY+
+USER-AGENT,CATCHPLAY*
+DOMAIN-SUFFIX,catchplay.com
+DOMAIN,asiaplay-origin.s3.amazonaws.com
+DOMAIN,tra-ww000-cp.akamaized.net
+DOMAIN,ols-ww000-cp.akamaized.net
+DOMAIN,ols-ww100-cp.akamaized.net
+
+# > HamiVideo
+DOMAIN,hamivideo.hinet.net
+DOMAIN,webvodad-hamivideo.cdn.hinet.net
+DOMAIN,static-hamivideo.cdn.hinet.net
+
+# > LiTV
+DOMAIN-SUFFIX,litv.tv
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+
+# > 台湾好
+USER-AGENT,TaiwanGood*
+DOMAIN-SUFFIX,skyking.com.tw
+DOMAIN,hamifans.emome.net
