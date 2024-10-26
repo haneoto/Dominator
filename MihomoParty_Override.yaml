@@ -324,7 +324,7 @@ rules:
   - "RULE-SET,Site_IQ,IQ"
   - "RULE-SET,Site_YouTube,YouTube"
   - "RULE-SET,Site_Netflix,Netflix" 
-  - "RULE-SET,Cluster_SNS-CN,Anti-IP"
+  - "RULE-SET,Cluster_SNS-CN,SNS-CN"
   - "RULE-SET,Site_Amazon,Amazon"     
   - "RULE-SET,Site_WeTV,WeTV" 
   - "RULE-SET,Site_Viki,Viki" 
