@@ -30,6 +30,7 @@ SukkaW规则库
 
 https://github.com/SukkaW/Surge
 
+https://blog.skk.moe/post/i-have-my-unique-surge-setup/
 
 
 anti-ip-attribution规则库
