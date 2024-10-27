@@ -195,9 +195,9 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Cluster_HTTPDNS.Block:
-    url: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list
-    path: ./ruleset/Cluster_HTTPDNS.Block.list
+  Cluster_BlockHttpDNS:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_BlockHttpDNS.list
+    path: ./ruleset/Cluster_BlockHttpDNS.list
     behavior: classical
     interval: 86400
     format: text
@@ -336,7 +336,7 @@ rules:
   - "RULE-SET,Cluster_Local,DIRECT"  
   - "RULE-SET,Region_CN,DIRECT"
   - "RULE-SET,Cluster_Advertising,AD"
-  - "RULE-SET,Cluster_HTTPDNS.Block,REJECT"
+  - "RULE-SET,Cluster_BlockHttpDNS,REJECT"
   - "RULE-SET,Site_bilibili-HMT,bilibili-CN/HMT"
   - "RULE-SET,Site_IQ,IQ"
   - "RULE-SET,Site_YouTube,YouTube"
