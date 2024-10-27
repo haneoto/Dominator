@@ -58,6 +58,11 @@ https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
 
 
 
+Clash.Meta Wiki-older
+https://clash-meta.gitbook.io/clash.meta-wiki-older
+
+
+
 虚空终端 Docs
 
 https://wiki.metacubex.one/config/
