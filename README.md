@@ -58,6 +58,12 @@ https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
 
 
 
+Clash 知识库
+
+https://clash.wiki/
+
+
+
 Clash.Meta Wiki-older
 
 https://clash-meta.gitbook.io/clash.meta-wiki-older
