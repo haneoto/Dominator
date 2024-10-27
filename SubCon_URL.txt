@@ -4,7 +4,7 @@ https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【
 【远程配置】
 https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
 
-https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【订阅链接】&config=https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2Fsubcon%2Fmaster%2Fconfig.ini
+https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【订阅链接】&config=https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
 
 
 【后端地址】
