@@ -1,11 +1,10 @@
 
-https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【订阅链接】&config=【远程配置】
+https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【编码后的订阅链接】&config=【编码后的远程配置】
 
-【远程配置】
-https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
+远程配置地址：https://raw.githubusercontent.com/haneoto/Dominator/master/SubCon.ini
+编码后：https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
 
-https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【订阅链接】&config=https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
-
+https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【编码后的订阅链接】&config=https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
 
 【后端地址】
 api.nexconvert.com
@@ -15,9 +14,8 @@ api.sublink.dev
 www.nameless13.com
 api.wcc.best
   
-【订阅链接编码】
+【URL编码】
 https://www.urlencoder.org/zh/
  
 【订阅链接转换】
 https://nexconvert.com/
-
