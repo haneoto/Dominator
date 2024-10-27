@@ -2,12 +2,6 @@
 
 
 
-神机规则库
-
-https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset
-
-
-
 blackmatrix7规则库
 
 https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
@@ -26,11 +20,18 @@ https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
 
 
 
+神机规则库
+
+https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset
+
+
+
 SukkaW规则库
 
 https://github.com/SukkaW/Surge
 
 https://blog.skk.moe/post/i-have-my-unique-surge-setup/
+
 
 
 anti-ip-attribution规则库
