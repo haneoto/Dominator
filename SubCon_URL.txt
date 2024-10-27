@@ -1,8 +1,12 @@
-﻿https://【后端地址】/sub?target=clash&url=【订阅链接】&insert=false&config=【远程配置】&emoji=true&list=false&udp=true&tfo=false&scv=true&fdn=false&sort=false
- 
+
+https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【订阅链接】&config=【远程配置】
+
 【远程配置】
 https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FDominator%2Fmaster%2FSubCon.ini
- 
+
+https://【后端地址】/sub?target=clash&emoji=true&tfo=true&udp=true&url=【订阅链接】&config=https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2Fsubcon%2Fmaster%2Fconfig.ini
+
+
 【后端地址】
 api.nexconvert.com
 api-huacloud.dev
