@@ -68,6 +68,16 @@ proxy-groups:
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
     type: select
+  - name: AI
+    type: select
+    proxies:
+      - US
+      - JP
+      - TW
+      - HK
+      - SG
+      - Proxies      
+    include-all: true      
   - name: Amazon
     type: select
     proxies:
@@ -227,6 +237,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http 
+  Cluster_AI:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_AI.list
+    path: ./ruleset/Cluster_AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
   Site_Amazon:
     url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_Amazon.list
     path: ./ruleset/Site_Amazon.list
@@ -325,6 +342,7 @@ rules:
   - "RULE-SET,Site_YouTube,YouTube"
   - "RULE-SET,Site_Netflix,Netflix" 
   - "RULE-SET,Cluster_SNS-CN,SNS-CN"
+  - "RULE-SET,Cluster_AI,AI"
   - "RULE-SET,Site_Amazon,Amazon"     
   - "RULE-SET,Site_WeTV,WeTV" 
   - "RULE-SET,Site_Viki,Viki" 
