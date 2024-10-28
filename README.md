@@ -49,7 +49,7 @@ https://github.com/Loyalsoldier/v2ray-rules-dat
 
 GEOSITE清单
 
-https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite
+https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical
 
 
 
