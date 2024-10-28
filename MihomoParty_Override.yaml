@@ -207,9 +207,9 @@ rule-providers:
     interval: 86400
     format: text
     type: http    
-  Site_bilibili-HMT:
-    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_bilibili-HMT.list
-    path: ./ruleset/Site_bilibili-HMT.list
+  Site_bilibili-CN.HMT:
+    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Site_bilibili-CN.HMT.list
+    path: ./ruleset/Site_bilibili-CN.HMT.list
     behavior: classical
     interval: 86400
     format: text
@@ -342,7 +342,7 @@ rules:
   - "RULE-SET,Region_CN,DIRECT"
   - "RULE-SET,Cluster_Advertising,AD"
   - "RULE-SET,Cluster_BlockHttpDNS,REJECT"
-  - "RULE-SET,Site_bilibili-HMT,bilibili-CN/HMT"
+  - "RULE-SET,Site_bilibili-CN.HMT,bilibili-CN/HMT"
   - "RULE-SET,Site_IQ,IQ"
   - "RULE-SET,Site_YouTube,YouTube"
   - "RULE-SET,Site_Netflix,Netflix" 
