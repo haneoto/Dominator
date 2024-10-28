@@ -360,5 +360,7 @@ rules:
   - "RULE-SET,Site_X,X"
   - "RULE-SET,Site_Telegram,Telegram"
   - "RULE-SET,Cluster_Global,Proxies"
+  - "GEOSITE,geolocation-cn,DIRECT"
+#  - "GEOIP,CN,DIRECT,no-resolve"
   - "GEOIP,CN,DIRECT"
   - "MATCH,Proxies"
