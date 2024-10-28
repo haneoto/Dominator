@@ -47,6 +47,11 @@ proxy-groups:
     proxies:    
       - DIRECT
       - Proxies
+      - JP
+      - TW
+      - HK
+      - SG
+      - US      
     include-all: true
   - name: JP
     include-all: true
