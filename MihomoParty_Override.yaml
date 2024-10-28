@@ -149,8 +149,7 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
-      - DIRECT
-      - Proxies
+      - PASS
 
 rule-providers:
   Personal_Direct:
