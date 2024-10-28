@@ -110,3 +110,9 @@ https://github.com/luestr/ProxyResource/tree/main?tab=readme-ov-file#%E6%8F%92%E
 GetSomeFries组件库
 
 https://github.com/VirgilClyne/GetSomeFries
+
+
+
+Lᴜᴄʏ's Tool
+
+https://wiki.repcz.link/proxytool/
