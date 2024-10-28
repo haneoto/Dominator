@@ -14,8 +14,9 @@ proxy-groups:
       - DIRECT
       - TW
       - HK
+      - PASS
     include-all: true
-    filter: (?i)澳门|Macao|MO
+    filter: (?i)澳门|Macao|MO   
   - name: IQ
     type: select
     proxies:
