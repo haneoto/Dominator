@@ -40,6 +40,11 @@ https://github.com/SunsetMkt/anti-ip-attribution
 
 
 
+Loyalsoldier GEO数据库（Clash.Meta默认GEO数据库）
+https://github.com/Loyalsoldier/v2ray-rules-dat
+
+
+
 Subscription Converter
 
 https://github.com/tindy2013/subconverter/blob/master/README-cn.md
