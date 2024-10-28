@@ -46,6 +46,13 @@ https://github.com/Loyalsoldier/v2ray-rules-dat
 
 
 
+
+GEOSITE清单
+
+https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite
+
+
+
 Subscription Converter
 
 https://github.com/tindy2013/subconverter/blob/master/README-cn.md
