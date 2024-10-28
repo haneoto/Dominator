@@ -116,3 +116,5 @@ https://github.com/VirgilClyne/GetSomeFries
 Lᴜᴄʏ's Tool
 
 https://wiki.repcz.link/proxytool/
+
+https://github.com/Repcz/Tool
