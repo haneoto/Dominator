@@ -51,20 +51,20 @@ dns:
   fallback: []
   fallback-filter: {}
   nameserver-policy:
-    geosite:private:
+    "geosite:private":
       - system
-    geosite:alibaba,aliyun,youku:
+    "geosite:alibaba,aliyun,youku":
       - quic://223.5.5.5
       - quic://223.6.6.6
-    geosite:tencent,qcloud,bilibili@cn,xiaomi:
+    "geosite:tencent,qcloud,bilibili@cn,xiaomi":
       - https://1.12.12.12/dns-query
       - https://120.53.53.53/dns-query
-    geosite:bytedance:
+    "geosite:bytedance":
       - 180.184.1.1
       - 180.184.2.2
-    geosite:baidu,iqiyi:
+    "geosite:baidu,iqiyi":
       - 180.76.76.76
-    geosite:cn:
+    "geosite:cn":
       - quic://223.5.5.5
       - https://1.12.12.12/dns-query
 sniffer:
