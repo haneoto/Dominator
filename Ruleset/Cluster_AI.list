@@ -24,6 +24,7 @@ DOMAIN,guzzoni.apple.com
 # > Claude
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
 
 # Google
 # > Gemini
