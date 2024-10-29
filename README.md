@@ -65,6 +65,8 @@ https://github.com/SleepyHeeead/subconverter-config
 
 Mihomo Party 覆写示例
 
+https://mihomo.party/docs/guide/override/yaml
+
 https://github.com/mihomo-party-org/override-hub
 
 https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
