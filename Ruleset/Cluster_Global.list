@@ -324,8 +324,6 @@ IP-CIDR,54.230.156.0/22,no-resolve
 IP-CIDR,54.93.0.0/16,no-resolve
 ## >> Amazon Prime Video
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonprimevideo.cn
@@ -4714,7 +4712,6 @@ IP-CIDR6,2400:dcc0:af02::/48,no-resolve
 IP-CIDR6,2400:dcc0:af03::/48,no-resolve
 IP-CIDR6,2400:dcc0:d001::/48,no-resolve
 ## >> LineTV
-USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
 DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-SUFFIX,linetv.tw
