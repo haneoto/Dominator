@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,biliintl.com
 PROCESS-NAME,com.bstar.intl
 
 # > meWATCH
-USER-AGENT,Mewatch
 DOMAIN-SUFFIX,mewatch.sg
 DOMAIN-SUFFIX,kaltura.com
 DOMAIN-SUFFIX,mediacorp.sg
