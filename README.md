@@ -30,6 +30,10 @@ SukkaW规则库
 
 https://github.com/SukkaW/Surge
 
+
+
+Sukka's Blog
+
 https://blog.skk.moe/post/i-have-my-unique-surge-setup/
 
 
@@ -47,17 +51,25 @@ https://github.com/Loyalsoldier/v2ray-rules-dat
 
 
 
-GEOSITE清单
+GeoSite清单
 
 https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical
 
 
 
-Subscription Converter
+subconverter
 
 https://github.com/tindy2013/subconverter/blob/master/README-cn.md
 
+
+
+Nexitally订阅转换器
+
 https://nexconvert.com/
+
+
+
+Nexitally订阅转换器配置
 
 https://github.com/SleepyHeeead/subconverter-config
 
