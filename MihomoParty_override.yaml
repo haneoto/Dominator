@@ -1,3 +1,9 @@
+# Mihomo Party 覆写配置
+# 在应用的覆写模块中导入此配置并全局启用后覆写所有订阅配置。
+# 覆写内容：自定义各项DNS服务器、国内DNS分流（代理域名走远程解析无需分流），跳过Telegram IP的域名嗅探（需使用完整GeoIP数据库），自定义代理分组、规则集和分流规则。
+# dns和hosts字段后加 ! 用于覆盖订阅配置中该字段的整个对象，如不加 ! 则递归合并。详见：https://mihomo.party/docs/guide/override/yaml
+# 只用系统代理，未考虑TUN（虚拟网卡）模式下的使用场景，因此fake-ip等其他用不到的设置保持默认。
+
 dns!:
   enable: true
   prefer-h3: false
@@ -404,3 +410,4 @@ rules:
 #  - "GEOIP,CN,DIRECT,no-resolve"
   - "GEOIP,CN,DIRECT"
   - "MATCH,Proxies"
+  
