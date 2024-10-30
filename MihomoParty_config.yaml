@@ -1,0 +1,70 @@
+# Mihomo Party 应用界面内设置配置文件
+# 路径：\data\config.yaml
+# 修改字段nameserverPolicy使其与mihomo.yaml内的相关设置保持一致
+
+core: mihomo
+silentStart: true
+appTheme: dark
+useWindowFrame: false
+proxyInTray: true
+maxLogDays: 7
+proxyCols: auto
+connectionDirection: asc
+connectionOrderBy: download
+useSubStore: false
+proxyDisplayMode: full
+proxyDisplayOrder: default
+autoCheckUpdate: true
+autoCloseConnection: false
+useNameserverPolicy: true
+controlDns: true
+controlSniff: true
+nameserverPolicy:
+  geosite:private:
+    - system
+  geosite:category-ads-all: rcode://success
+  geosite:alibaba,aliyun,youku:
+    - quic://223.5.5.5
+    - quic://223.6.6.6
+  geosite:tencent,qcloud,bilibili@cn,xiaomi:
+    - https://1.12.12.12/dns-query
+    - https://120.53.53.53/dns-query
+  geosite:bytedance:
+    - 180.184.1.1
+    - 180.184.2.2
+  geosite:baidu,iqiyi:
+    - 180.76.76.76
+  geosite:cn:
+    - quic://223.5.5.5
+    - https://1.12.12.12/dns-query
+siderOrder:
+  - sysproxy
+  - tun
+  - proxy
+  - rule
+  - resource
+  - override
+  - profile
+  - connection
+  - mihomo
+  - dns
+  - sniff
+  - log
+  - substore
+sysProxy:
+  enable: true
+  mode: manual
+showTraffic: false
+envType:
+  - cmd
+autoQuitWithoutCore: false
+customTheme: default-gray.css
+useCustomSubStore: false
+webdavUrl: https://gima.teracloud.jp/dav/
+webdavUsername: 
+webdavPassword: 
+showFloatingWindow: false
+profileDisplayDate: update
+sysproxyCardStatus: col-span-1
+tunCardStatus: col-span-1
+logCardStatus: col-span-1
