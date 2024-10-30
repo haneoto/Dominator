@@ -61,7 +61,7 @@ dns:
     - time.*.com
     - ntp.*.com
     - +.market.xiaomi.com
-  use-hosts: true
+  use-hosts: false
   use-system-hosts: true
   default-nameserver:
     - quic://223.5.5.5
@@ -70,24 +70,22 @@ dns:
     - quic://223.5.5.5
   proxy-server-nameserver:
     - quic://223.5.5.5
-  respect-rules: false
   nameserver-policy:
-    "geosite:private":
+    geosite:private:
       - system
-    "geosite:category-ads-all": rcode://success
-    "geosite:alibaba,aliyun,youku":
+    geosite:category-ads-all: rcode://success
+    geosite:alibaba,aliyun,youku:
       - 223.5.5.5
       - 223.6.6.6
-    "geosite:tencent,qcloud,bilibili@cn,xiaomi":
+    geosite:tencent,qcloud,bilibili@cn,xiaomi:
       - 119.29.29.29
       - 182.254.116.116
-    "geosite:bytedance":
+    geosite:bytedance:
       - 180.184.1.1
       - 180.184.2.2
-    "geosite:baidu,iqiyi":
+    geosite:baidu,iqiyi:
       - 180.76.76.76
-    "geosite:cn":
-      - quic://223.5.5.5
+    geosite:cn: quic://223.5.5.5
   respect-rules: false
   fallback: []
   fallback-filter: {}
