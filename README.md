@@ -14,7 +14,7 @@
 
 - **[Clash知识库](https://clash.wiki/)**
 - **[Clash.Meta Wiki-older](https://clash-meta.gitbook.io/clash.meta-wiki-older)**
-- **[虚空终端（Mihomo） Docs](https://wiki.metacubex.one/config/)**
+- **[虚空终端 Docs](https://wiki.metacubex.one/config/)**
 
 ### GeoIP/GeoSite 数据库
 
