@@ -1,4 +1,4 @@
-# Mihomo Party mihomo配置
+# Mihomo Party mihomo内核配置文件
 # 路径：\data\mihomo.yaml
 # 修改字段dns、hosts、sniffer，使其与覆写内容保持一致。
 # 修改内容：自定义各项DNS服务器、国内DNS分流（代理域名走远程解析无需分流）、跳过Telegram IP的域名嗅探（需使用完整GeoIP数据库）
