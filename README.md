@@ -12,13 +12,13 @@
 
 ### 知识库
 
-- **[Clash知识库](https://clash.wiki/)**
+- **[Clash 知识库](https://clash.wiki/)**
 - **[Clash.Meta Wiki-older](https://clash-meta.gitbook.io/clash.meta-wiki-older)**
 - **[虚空终端 Docs](https://wiki.metacubex.one/config/)**
 
 ### GeoIP/GeoSite 数据库
 
-- **[Loyalsoldier GEO 数据库（Clash.Meta默认Geo数据库）](https://github.com/Loyalsoldier/v2ray-rules-dat)**
+- **[Loyalsoldier GEO 数据库 (Clash.Meta默认Geo数据库)](https://github.com/Loyalsoldier/v2ray-rules-dat)**
 - **[GeoSite清单](https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical)**
 
 ### Mihomo Party 覆写示例
@@ -38,7 +38,7 @@
 ### 订阅转换
 
 - **[subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)**
-- **[Nexitally订阅转换器](https://nexconvert.com/)**
+- **[Nexitally 订阅转换器](https://nexconvert.com/)**
 - **[subconverter-config](https://github.com/SleepyHeeead/subconverter-config)**
 
 ### 其他
