@@ -34,6 +34,7 @@
 
 - **[QuantumultX 不完全教程](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917)**
 - **[QuantumultX 墨鱼配置](https://github.com/ddgksf2013/ddgksf2013)**
+- **[Script-Hub](https://scripthub.vercel.app/)**
 
 ### 订阅转换
 
