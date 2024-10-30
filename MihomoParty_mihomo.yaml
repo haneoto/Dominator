@@ -1,0 +1,117 @@
+#Mihomo Party mihomo配置
+#路径：\data\mihomo.yaml
+#修改理由：覆写模块的优先级低于此配置文件，修改使其与覆写内容保持一致。
+#修改字段：dns、hosts、sniffer
+#修改内容：自定义各项DNS服务器、国内DNS分流（代理域名走远程解析无需分流）、跳过Telegram IP的域名嗅探（需使用完整GeoIP数据库）
+#只用系统代理，未考虑TUN（虚拟网卡）模式下的使用场景，因此fake-ip等其他用不到的设置保持默认。
+
+ipv6: true
+mode: rule
+mixed-port: 7890
+socks-port: 7891
+port: 7892
+redir-port: 0
+tproxy-port: 0
+allow-lan: false
+unified-delay: false
+tcp-concurrent: false
+log-level: debug
+find-process-mode: strict
+bind-address: "*"
+lan-allowed-ips:
+  - 0.0.0.0/0
+  - ::/0
+lan-disallowed-ips: []
+authentication: []
+skip-auth-prefixes:
+  - 127.0.0.1/32
+tun:
+  enable: false
+  device: Mihomo
+  stack: mixed
+  auto-route: true
+  auto-redirect: false
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+  mtu: 1500
+  strict-route: false
+profile:
+  store-selected: true
+  store-fake-ip: true
+geo-auto-update: true
+geo-update-interval: 24
+geodata-mode: false
+geox-url:
+  geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat
+  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb
+  asn: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
+secret: ""
+external-controller: ""
+dns:
+  enable: true
+  prefer-h3: false
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*"
+    - +.lan
+    - +.local
+    - time.*.com
+    - ntp.*.com
+    - +.market.xiaomi.com
+  use-hosts: true
+  use-system-hosts: true
+  default-nameserver:
+    - quic://223.5.5.5
+    - quic://223.6.6.6
+  nameserver:
+    - https://doh.apad.pro/dns-query
+  proxy-server-nameserver:
+    - https://doh.apad.pro/dns-query
+  nameserver-policy:
+    geosite:private:
+      - system
+    geosite:category-ads-all: rcode://success
+    geosite:alibaba,aliyun,youku:
+      - quic://223.5.5.5
+      - quic://223.6.6.6
+    geosite:tencent,qcloud,bilibili@cn,xiaomi:
+      - https://1.12.12.12/dns-query
+      - https://120.53.53.53/dns-query
+    geosite:bytedance:
+      - 180.184.1.1
+      - 180.184.2.2
+    geosite:baidu,iqiyi:
+      - 180.76.76.76
+    geosite:cn:
+      - quic://223.5.5.5
+      - https://1.12.12.12/dns-query
+  respect-rules: false
+  fallback: []
+  fallback-filter: {}
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  force-dns-mapping: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 443
+      override-destination: false
+    TLS:
+      ports:
+        - 443
+    QUIC:
+      ports:
+        - 443
+  skip-domain:
+    - +.push.apple.com
+  skip-dst-address:
+    - geoip:telegram
+hosts:
+  doh.apad.pro: 220.185.184.17
