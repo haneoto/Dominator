@@ -1,46 +1,35 @@
 # Mihomo Party 覆写配置
-# 在应用的覆写模块中导入此配置并全局启用后覆写所有订阅配置。
-# 覆写内容：自定义各项DNS服务器、国内DNS分流（代理域名走远程解析无需分流），跳过Telegram IP的域名嗅探（需使用完整GeoIP数据库），自定义代理分组、规则集和分流规则。
-# dns和hosts字段后加 ! 用于覆盖订阅配置中该字段的整个对象，如不加 ! 则递归合并。详见：https://mihomo.party/docs/guide/override/yaml
-# 只用系统代理，未考虑TUN（虚拟网卡）模式下的使用场景，因此fake-ip等其他用不到的设置保持默认。
+
+# dns和hosts字段后加!用于覆盖订阅配置中该字段的整个对象，如不加!则递归合并。详见：https://mihomo.party/docs/guide/override/yaml
 
 dns!:
-  enable: true
   prefer-h3: false
-  ipv6: false
-  use-hosts: true
-  use-system-hosts: true
   default-nameserver:
     - quic://223.5.5.5
     - quic://223.6.6.6
-  nameserver:
-    - quic://223.5.5.5
-  proxy-server-nameserver:
-    - quic://223.5.5.5
-  respect-rules: false
-  nameserver-policy:
-    "geosite:private":
-      - system
-    "geosite:category-ads-all": rcode://success
-    "geosite:alibaba,aliyun,youku":
-      - quic://223.5.5.5
-      - quic://223.6.6.6
-    "geosite:tencent,qcloud,bilibili@cn,xiaomi":
-      - 119.29.29.29
-      - 182.254.116.116
-    "geosite:bytedance":
-      - 180.184.1.1
-      - 180.184.2.2
-    "geosite:baidu,iqiyi":
-      - 180.76.76.76
-    "geosite:cn": quic://223.5.5.5
 
-hosts!:
-  doh.apad.pro: 220.185.184.17
+# 其他应用界面内可设置的内容在应用内设置，避免不统一。
+
+hosts!: {}
 
 sniffer:
   skip-dst-address:
-    - geoip:telegram
+    - 91.108.56.0/22
+    - 91.108.4.0/22
+    - 91.108.8.0/22
+    - 91.108.16.0/22
+    - 91.108.12.0/22
+    - 149.154.160.0/20
+    - 91.105.192.0/23
+    - 91.108.20.0/22
+    - 185.76.151.0/24
+    - 2001:b28:f23d::/48
+    - 2001:b28:f23f::/48
+    - 2001:67c:4e8::/48
+    - 2001:b28:f23c::/48
+    - 2a0a:f280::/32
+
+# 跳过Telegram IP的域名嗅探，官方CIDR列表：https://core.telegram.org/resources/cidr.txt
 
 proxy-groups:
   - name: Proxies
