@@ -1,7 +1,6 @@
 # Mihomo Party mihomo配置
 # 路径：\data\mihomo.yaml
-# 修改原因：覆写模块的优先级低于此配置文件，修改使其与覆写内容保持一致。
-# 修改字段：dns、hosts、sniffer
+# 修改字段dns、hosts、sniffer，使其与覆写内容保持一致。
 # 修改内容：自定义各项DNS服务器、国内DNS分流（代理域名走远程解析无需分流）、跳过Telegram IP的域名嗅探（需使用完整GeoIP数据库）
 # 只用系统代理，未考虑TUN（虚拟网卡）模式下的使用场景，因此fake-ip等其他用不到的设置保持默认。
 
