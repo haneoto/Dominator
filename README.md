@@ -12,11 +12,11 @@
 
 ### 知识库
 
-- **[Clash 知识库](https://clash.wiki/)**
+- **[Clash知识库](https://clash.wiki/)**
 - **[Clash.Meta Wiki-older](https://clash-meta.gitbook.io/clash.meta-wiki-older)**
 - **[虚空终端（Mihomo） Docs](https://wiki.metacubex.one/config/)**
 
-### GeoIP/Site数据库
+### GeoIP/GeoSite 数据库
 
 - **[Loyalsoldier GEO 数据库（Clash.Meta默认Geo数据库）](https://github.com/Loyalsoldier/v2ray-rules-dat)**
 - **[GeoSite清单](https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical)**
