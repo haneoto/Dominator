@@ -24,11 +24,11 @@ nameserverPolicy:
     - system
   geosite:category-ads-all: rcode://success
   geosite:alibaba,aliyun,youku:
-    - quic://223.5.5.5
-    - quic://223.6.6.6
+    - 223.5.5.5
+    - 223.6.6.6
   geosite:tencent,qcloud,bilibili@cn,xiaomi:
-    - https://1.12.12.12/dns-query
-    - https://120.53.53.53/dns-query
+    - 119.29.29.29
+    - 182.254.116.116
   geosite:bytedance:
     - 180.184.1.1
     - 180.184.2.2
@@ -36,7 +36,6 @@ nameserverPolicy:
     - 180.76.76.76
   geosite:cn:
     - quic://223.5.5.5
-    - https://1.12.12.12/dns-query
 siderOrder:
   - sysproxy
   - tun
