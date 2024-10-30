@@ -75,11 +75,18 @@ https://github.com/SleepyHeeead/subconverter-config
 
 
 
-Mihomo Party 覆写示例
-
+Mihomo Party 覆写运行逻辑
 https://mihomo.party/docs/guide/override/yaml
 
+
+
+Mihomo Party 常用覆写脚本/示例
+
 https://github.com/mihomo-party-org/override-hub
+
+
+
+Mihomo Party 覆写配置（墨鱼）
 
 https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
 
@@ -130,5 +137,9 @@ https://github.com/VirgilClyne/GetSomeFries
 Lᴜᴄʏ's Tool
 
 https://wiki.repcz.link/proxytool/
+
+
+
+Repcz Tool
 
 https://github.com/Repcz/Tool
