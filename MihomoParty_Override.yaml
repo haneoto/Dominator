@@ -34,6 +34,10 @@ dns!:
 hosts!:
   doh.apad.pro: 220.185.184.17
 
+sniffer:
+  skip-dst-address:
+    - geoip:telegram
+
 proxy-groups:
   - name: Proxies
     type: select
