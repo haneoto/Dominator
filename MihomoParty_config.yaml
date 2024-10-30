@@ -34,8 +34,7 @@ nameserverPolicy:
     - 180.184.2.2
   geosite:baidu,iqiyi:
     - 180.76.76.76
-  geosite:cn:
-    - quic://223.5.5.5
+  geosite:cn: quic://223.5.5.5
 siderOrder:
   - sysproxy
   - tun
