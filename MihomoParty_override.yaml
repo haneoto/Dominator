@@ -41,6 +41,18 @@ proxy-groups:
       - SG
       - US
     include-all: true
+  - name: CDN/DL-Global
+    type: select
+    proxies:    
+      - Proxies
+      - PASS
+      - DIRECT
+      - JP
+      - US
+      - TW
+      - HK
+      - SG     
+    include-all: true
   - name: bilibili-CN/HMT
     type: select
     proxies:
@@ -86,18 +98,6 @@ proxy-groups:
       - HK
       - SG
       - US      
-    include-all: true
-  - name: CDN/DL-Global
-    type: select
-    proxies:    
-      - Proxies
-      - PASS
-      - DIRECT
-      - JP
-      - US
-      - TW
-      - HK
-      - SG     
     include-all: true
   - name: JP
     include-all: true
