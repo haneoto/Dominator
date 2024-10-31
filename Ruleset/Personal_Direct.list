@@ -1,4 +1,4 @@
-# 防误开虚拟网卡模式
+# 防误开TUN
 PROCESS-NAME,qbittorrent
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
@@ -7,3 +7,6 @@ PROCESS-NAME,115chrome.exe
 PROCESS-NAME,WeChat.exe
 PROCESS-NAME,WeChatAppEx.exe
 PROCESS-NAME,TIM.exe
+
+# AD白名单
+DOMAIN,staticsns.cdn.bcebos.com
