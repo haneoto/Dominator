@@ -9,6 +9,7 @@
 - **[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash)**
 - **[ConnersHua](https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset)**
 - **[anti-ip-attribution](https://github.com/SunsetMkt/anti-ip-attribution)**
+- **[DoingDog](https://github.com/DoingDog/rconvert/)**
 
 ### 知识库
 
