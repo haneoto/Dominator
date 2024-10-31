@@ -1,4 +1,5 @@
-# 补充规则
+## 补充规则
+
 # YouTube
 DOMAIN-SUFFIX,googlevideo.com
 
@@ -15,8 +16,8 @@ DOMAIN-SUFFIX,hath.network
 DOMAIN,cc3001.dmm.co.jp
 
 
-# -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
-# Sukka CDN Rules
+## Sukka规则
+
 # convert: DoingDog
 # https://github.com/DoingDog/rconvert/blob/main/cdn/fin.txt
 # Main total line 2549
