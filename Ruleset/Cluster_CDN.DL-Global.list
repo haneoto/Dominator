@@ -1,9 +1,19 @@
+# YouTube
+DOMAIN-SUFFIX,googlevideo.com
+
+# Github
 DOMAIN,objects.githubusercontent.com
+
+# DLsite
 DOMAIN,download.dlsite.com
 DOMAIN,file.chobit.cc
 DOMAIN,img.dlsite.jp
 DOMAIN,play.dl.dlsite.com
 DOMAIN,trial.dlsite.com
+
+# E-Hentai
 DOMAIN-SUFFIX,hath.network
+
+# Pornhub
 DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,googlevideo.com
+
