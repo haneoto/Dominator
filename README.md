@@ -31,7 +31,6 @@
 
 - **[可莉的 Loon 资源](https://github.com/luestr/ProxyResource/tree/main?tab=readme-ov-file#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8)**
 - **[GetSomeFries 组件库](https://github.com/VirgilClyne/GetSomeFries)**
-
 - **[QuantumultX 不完全教程](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917)**
 - **[QuantumultX 墨鱼配置](https://github.com/ddgksf2013/ddgksf2013)**
 - **[Script-Hub](https://scripthub.vercel.app/)**
