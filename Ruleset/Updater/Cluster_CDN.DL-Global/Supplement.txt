@@ -1,0 +1,18 @@
+﻿## 补充规则
+
+# YouTube
+DOMAIN-SUFFIX,googlevideo.com
+
+# DLsite
+DOMAIN,file.chobit.cc
+DOMAIN,play.dl.dlsite.com
+DOMAIN,trial.dlsite.com
+
+# E-Hentai
+DOMAIN-SUFFIX,hath.network
+
+# FANZA
+DOMAIN,cc3001.dmm.co.jp
+
+
+## Sukka规则
