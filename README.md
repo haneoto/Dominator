@@ -10,7 +10,6 @@
 - **[ConnersHua](https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset)**
 - **[anti-ip-attribution](https://github.com/SunsetMkt/anti-ip-attribution)**
 - **[anti-AD](https://github.com/privacy-protection-tools/anti-AD)**
-- **[DoingDog](https://github.com/DoingDog/rconvert/)**
 
 ### 知识库
 
