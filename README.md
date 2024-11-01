@@ -38,7 +38,7 @@
 ### 订阅转换
 
 - **[subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)**
-- **[Nexitally 订阅转换器](https://nexconvert.com/)**
+- **[nexconvert](https://nexconvert.com/)**
 - **[subconverter-config](https://github.com/SleepyHeeead/subconverter-config)**
 
 ### 其他
