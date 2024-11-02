@@ -24,8 +24,8 @@ DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,linetv.tw
 PROCESS-NAME,com.linecorp.linetv
 
-# > friDay
-DOMAIN-SUFFIX,friday.tw
+# > MyVideo
+DOMAIN-SUFFIX,myvideo.net.tw
 
 # > CATCHPLAY+
 DOMAIN-SUFFIX,catchplay.com
@@ -34,6 +34,9 @@ DOMAIN,tra-ww000-cp.akamaized.net
 DOMAIN,ols-ww000-cp.akamaized.net
 DOMAIN,ols-ww100-cp.akamaized.net
 
+# > friDay
+DOMAIN-SUFFIX,friday.tw
+
 # > HamiVideo
 DOMAIN,hamivideo.hinet.net
 DOMAIN,webvodad-hamivideo.cdn.hinet.net
@@ -41,8 +44,4 @@ DOMAIN,static-hamivideo.cdn.hinet.net
 
 # > LiTV
 DOMAIN-SUFFIX,litv.tv
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-
-# > 台湾好
-DOMAIN-SUFFIX,skyking.com.tw
-DOMAIN,hamifans.emome.net
+DOMAIN,litvfreepc.akamaized.net
