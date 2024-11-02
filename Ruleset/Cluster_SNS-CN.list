@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,bilibili.com
 IP-CIDR,203.107.1.0/24,no-resolve
 DOMAIN-SUFFIX,bilivideo.com,DIRECT
-DOMAIN-SUFFIX,akamaized.net,DIRECT
+#DOMAIN-SUFFIX,akamaized.net,DIRECT
 DOMAIN-SUFFIX,hdslb.com,DIRECT
 DOMAIN-SUFFIX,szbdyd.com,DIRECT
 DOMAIN-SUFFIX,weibo.cn
