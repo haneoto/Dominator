@@ -1,12 +1,5 @@
 # 防误开TUN
-PROCESS-NAME,qbittorrent
 PROCESS-NAME,qbittorrent.exe
-PROCESS-NAME,baidunetdisk.exe
-PROCESS-NAME,baidunetdiskhost.exe
-PROCESS-NAME,115chrome.exe
-PROCESS-NAME,WeChat.exe
-PROCESS-NAME,WeChatAppEx.exe
-PROCESS-NAME,TIM.exe
 
 # PT Site
 DOMAIN-SUFFIX,1ptba.com
