@@ -7,8 +7,8 @@
 - **[SukkaW](https://github.com/SukkaW/Surge)** / **[Sukka's Blog](https://blog.skk.moe/post/i-have-my-unique-surge-setup/)**
 - **[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash)**
 - **[ConnersHua](https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset)**
-- **[anti-ip-attribution](https://github.com/SunsetMkt/anti-ip-attribution)**
-- **[anti-AD](https://github.com/privacy-protection-tools/anti-AD)**
+- **[SunsetMkt](https://github.com/SunsetMkt/anti-ip-attribution)**
+- **[Cats-Team](https://github.com/Cats-Team/AdRules)**
 
 ### 知识库
 
