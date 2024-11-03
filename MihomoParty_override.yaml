@@ -432,6 +432,7 @@ rules:
   - "RULE-SET,Region_SG,SG"
   - "RULE-SET,Cluster_SNS-CN,SNS-CN"
   - "RULE-SET,Cluster_Global,Proxies"
+  - "GEOSITE,category-porn,Proxies"
   - "GEOSITE,geolocation-cn,DIRECT"
 #  - "GEOIP,CN,DIRECT,no-resolve"
   - "GEOIP,CN,DIRECT"
