@@ -207,7 +207,7 @@ proxy-groups:
       - HK     
       - US
     include-all: true
-  - name: AD
+  - name: Reject
     type: select
     proxies:
       - REJECT
@@ -249,20 +249,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Cluster_Advertising:
+  Cluster_Reject:
     url: https://adrules.top/adrules.list
-    path: ./ruleset/Cluster_Advertising.list
+    path: ./ruleset/Cluster_Reject.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Cluster_BlockHttpDNS:
-    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_BlockHttpDNS.list
-    path: ./ruleset/Cluster_BlockHttpDNS.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http    
   Cluster_CDN.DL-Global:
     url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_CDN.DL-Global.list
     path: ./ruleset/Cluster_CDN.DL-Global.list
@@ -396,20 +389,12 @@ rule-providers:
     interval: 86400
     format: text
     type: http 
-  Cluster_Global:
-    url: https://raw.githubusercontent.com/haneoto/Dominator/master/Ruleset/Cluster_Global.list
-    path: ./ruleset/Cluster_Global.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http  
 
 rules:
   - "RULE-SET,Personal_Direct,DIRECT"
   - "RULE-SET,Personal_Reject,REJECT"
   - "RULE-SET,Personal_Proxy,Proxies"
-  - "RULE-SET,Cluster_BlockHttpDNS,REJECT"
-  - "RULE-SET,Cluster_Advertising,AD"
+  - "RULE-SET,Cluster_Reject,Reject"
   - "RULE-SET,Cluster_Local,DIRECT"  
   - "RULE-SET,Region_CN,DIRECT"
   - "RULE-SET,Cluster_AI,AI"
@@ -431,7 +416,6 @@ rules:
   - "RULE-SET,Region_HK,HK"
   - "RULE-SET,Region_SG,SG"
   - "RULE-SET,Cluster_SNS-CN,SNS-CN"
-#  - "RULE-SET,Cluster_Global,Proxies"
   - "GEOSITE,geolocation-cn,DIRECT"
   - "GEOSITE,tld-!cn,Proxies"
   - "GEOSITE,geolocation-!cn,Proxies"
