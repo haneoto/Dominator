@@ -395,6 +395,7 @@ rules:
   - "RULE-SET,Personal_Reject,REJECT"
   - "RULE-SET,Personal_Proxy,Proxies"
   - "RULE-SET,Cluster_Reject,Reject"
+  - "GEOSITE,category-httpdns-cn,Reject" 
   - "RULE-SET,Cluster_Local,DIRECT"  
   - "RULE-SET,Region_CN,DIRECT"
   - "RULE-SET,Cluster_AI,AI"
