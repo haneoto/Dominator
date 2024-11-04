@@ -1,11 +1,6 @@
 ﻿import requests
 import os
 
-# 设置 HTTPS 代理
-proxies = {
-    "https": "http://127.0.0.1:7890",
-}
-
 # 要下载的文件链接
 urls = [
     "https://ruleset.skk.moe/Clash/domainset/download.txt",
