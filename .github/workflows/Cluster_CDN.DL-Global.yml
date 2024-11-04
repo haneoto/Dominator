@@ -27,8 +27,8 @@ jobs:
 
       - name: Configure Git with virtual identity
         run: |
-          git config --global user.email "bot@example.com"
-          git config --global user.name "Automated Bot"
+          git config --global user.email "drone@sibyl.system"
+          git config --global user.name "drone"
      
       - name: Commit and Push Changes
         run: |
