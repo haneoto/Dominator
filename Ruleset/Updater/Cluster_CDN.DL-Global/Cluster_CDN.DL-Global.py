@@ -23,7 +23,7 @@ def download_files():
     }
 
     for url in urls:
-        response = requests.get(url, headers=headers, proxies=proxies)
+        response = requests.get(url, headers=headers)
         response.raise_for_status()  # 检查请求是否成功
 
         # 检查响应内容类型
