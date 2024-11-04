@@ -31,7 +31,7 @@ nameserverPolicy:
     - quic://223.5.5.5:853
     - https://1.12.12.12/dns-query
 
-# 以上本地DNS分流仅对直连与非代理域名生效，代理域名时直接走远程解析。
+# 以上本地DNS分流仅对直连与非代理域名生效，代理域名直接走远程解析。
 
 
 # nameserver、proxy-server-nameserver、hosts分别对应DNS模块的“DNS 服务器”、“代理节点域名解析”、“自定义 Hosts”，通过配置文件编辑时在内核配置（\data\mihomo.yaml）中修改，重启应用后变更会反应在界面上。
