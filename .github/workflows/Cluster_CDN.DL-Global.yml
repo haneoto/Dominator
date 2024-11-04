@@ -19,33 +19,22 @@ jobs:
 
       - name: Install Required Libraries
         run: |
-          python -m pip install --upgrade requests
+          python -m pip install requests
 
       - name: Run Python Script to Generate New File
         run: |
-          echo "Starting to run the Python script at $(date)"
-          try:
-            python Ruleset/Updater/Cluster_CDN.DL-Global/Cluster_CDN.DL-Global.py
-            ls -l Ruleset/Cluster_CDN.DL-Global.list
-            echo "Python script ran successfully at $(date)"
-          except Exception as e:
-            echo "Error occurred while running the Python script: $e"
-            exit 1
-
+          python Ruleset/Updater/Cluster_CDN.DL-Global/Cluster_CDN.DL-Global.py
+          ls -l Ruleset/Cluster_CDN.DL-Global.list
+          
       - name: Configure Git with virtual identity
         run: |
           git config --global user.email "drone@sibyl.system"
           git config --global user.name "drone"
-
+     
       - name: Commit and Push Changes
         run: |
-          if [ -f Ruleset/Cluster_CDN.DL-Global.list ]; then
-            git add Ruleset/Cluster_CDN.DL-Global.list
-            git commit -m "Automated update of Cluster_CDN.DL-Global.list"
-            git push
-          else
-            echo "The file Ruleset/Cluster_CDN.DL-Global.list does not exist."
-            exit 1
-          end
+          git add Ruleset/Cluster_CDN.DL-Global.list
+          git commit -m "Automated update of Cluster_CDN.DL-Global.list"
+          git push
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
