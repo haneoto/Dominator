@@ -25,6 +25,11 @@ jobs:
         run: |
           python Ruleset/Updater/Cluster_CDN.DL-Global/Cluster_CDN.DL-Global.py
 
+      - name: Configure Git with virtual identity
+        run: |
+          git config --global user.email "bot@example.com"
+          git config --global user.name "Automated Bot"
+     
       - name: Commit and Push Changes
         run: |
           git add Ruleset/Cluster_CDN.DL-Global.list
