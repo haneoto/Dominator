@@ -5,7 +5,6 @@
 # nameserverPolicy覆写优先级：应用DNS模块内修改保存（重新开关DNS模块也会覆写当前设置） > 启动时读取内核配置（mihomo.yaml） > 启动时读取应用配置（\data\config.yaml） > 覆写模块
 # config.yaml修改完毕后重启应用并重新开关DNS模块，Mihomo Party会将该字段重新写入到内核配置（\data\mihomo.yaml）与当前配置（\data\work\config.yaml）中。在应用内修改相关设置会直接写入到这两个配置文件中。
 
-
 nameserverPolicy:
   geosite:private:
     - system
@@ -21,10 +20,7 @@ nameserverPolicy:
     - 180.184.2.2
   geosite:baidu,iqiyi:
     - 180.76.76.76
-  geosite:cn:
-    - quic://223.5.5.5:853
-    - https://1.12.12.12/dns-query
-  geosite:microsoft,apple:
+  geosite:cn,microsoft,apple:
     - quic://223.5.5.5:853
     - https://1.12.12.12/dns-query
   rule-set:Personal_Direct,Region_CN:
