@@ -24,7 +24,7 @@ jobs:
       - name: Run Python Script to Generate New File
         run: |
           python Ruleset/Updater/Cluster_CDN.DL-Global/Cluster_CDN.DL-Global.py
-          ls -l Ruleset/Cluster_CDN.DL-Global.list
+          ls -l Ruleset/Updater/Cluster_CDN.DL-Global.list
           
       - name: Configure Git with virtual identity
         run: |
