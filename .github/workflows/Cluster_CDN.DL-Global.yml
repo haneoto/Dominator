@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-
+        
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -25,16 +25,20 @@ jobs:
         run: |
           python Ruleset/Updater/Cluster_CDN.DL-Global/Cluster_CDN.DL-Global.py
           ls -l Ruleset/Cluster_CDN.DL-Global.list
-          
+
       - name: Configure Git with virtual identity
         run: |
           git config --global user.email "drone@sibyl.system"
           git config --global user.name "drone"
-     
+
+      - name: Check for untracked files
+        run: |
+          git status
+
       - name: Commit and Push Changes
         run: |
           git add Ruleset/Cluster_CDN.DL-Global.list
-          git commit -m "Automated update of Cluster_CDN.DL-Global.list"
+          git commit -m "Automated update of Cluster_CDN.DL-Global.list" || echo "No changes to commit"
           git push
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
