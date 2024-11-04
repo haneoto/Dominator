@@ -8,7 +8,7 @@
 nameserverPolicy:
   geosite:private:
     - system
-  geosite:category-ads-all,httpdns: rcode://success
+  geosite:category-ads-all: rcode://success
   geosite:alibaba,aliyun,youku:
     - 223.5.5.5
     - 223.6.6.6
