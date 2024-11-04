@@ -1,5 +1,4 @@
 # Mihomo Party DNS设置备份
-# 大陆DNS分流参考：https://github.com/SukkaW/Surge/blob/master/Source/non_ip/domestic.ts
 # 境外代理域名走远程解析，无需DNS分流。
 
 # nameserverPolicy对应应用内DNS模块的“覆盖DNS策略”，通过配置文件编辑时需先在应用配置（\data\config.yaml）中修改。
@@ -9,13 +8,13 @@
 nameserverPolicy:
   geosite:private:
     - system
-  geosite:category-ads-all: rcode://success
+  geosite:category-ads-all,httpdns: rcode://success
   geosite:alibaba,aliyun,youku:
-    - quic://223.5.5.5:853
-    - quic://223.6.6.6:853
+    - 223.5.5.5
+    - 223.6.6.6
   geosite:tencent,qcloud,bilibili@cn,xiaomi:
-    - https://1.12.12.12/dns-query
-    - https://120.53.53.53/dns-query
+    - 119.29.29.29
+    - 182.254.116.116
   geosite:bytedance:
     - 180.184.1.1
     - 180.184.2.2
@@ -30,10 +29,10 @@ nameserverPolicy:
 # 以上三项的覆写优先级：应用DNS模块内修改保存（重新开关DNS模块也会覆写当前设置） > 启动时读取内核配置（mihomo.yaml） > 覆写模块
     
   nameserver:
-    - quic://223.5.5.5
-    - https://1.12.12.12/dns-query
+    - https://1.1.1.1/dns-query#Proxies
+    - https://208.67.222.222/dns-query#Proxies
   proxy-server-nameserver:
-    - quic://223.5.5.5
+    - quic://223.5.5.5:853
     - https://1.12.12.12/dns-query
     
 hosts:
