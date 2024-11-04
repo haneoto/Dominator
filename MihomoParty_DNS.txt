@@ -1,9 +1,10 @@
 # Mihomo Party DNS设置备份
-# 境外代理域名走远程解析，无需DNS分流。
+
 
 # nameserverPolicy对应应用内DNS模块的“覆盖DNS策略”，通过配置文件编辑时需先在应用配置（\data\config.yaml）中修改。
 # nameserverPolicy覆写优先级：应用DNS模块内修改保存（重新开关DNS模块也会覆写当前设置） > 启动时读取内核配置（mihomo.yaml） > 启动时读取应用配置（\data\config.yaml） > 覆写模块
 # config.yaml修改完毕后重启应用并重新开关DNS模块，Mihomo Party会将该字段重新写入到内核配置（\data\mihomo.yaml）与当前配置（\data\work\config.yaml）中。在应用内修改相关设置会直接写入到这两个配置文件中。
+
 
 nameserverPolicy:
   geosite:private:
@@ -12,7 +13,7 @@ nameserverPolicy:
   geosite:alibaba,aliyun,youku:
     - 223.5.5.5
     - 223.6.6.6
-  geosite:tencent,qcloud,bilibili@cn,xiaomi:
+  geosite:tencent,qcloud,bilibili,xiaomi:
     - 119.29.29.29
     - 182.254.116.116
   geosite:bytedance:
@@ -23,6 +24,14 @@ nameserverPolicy:
   geosite:cn:
     - quic://223.5.5.5:853
     - https://1.12.12.12/dns-query
+  geosite:microsoft,apple:
+    - quic://223.5.5.5:853
+    - https://1.12.12.12/dns-query
+  rule-set:Personal_Direct,Region_CN:
+    - quic://223.5.5.5:853
+    - https://1.12.12.12/dns-query
+
+# 以上本地DNS分流仅对直连与非代理域名生效，代理域名时直接走远程解析。
 
 
 # nameserver、proxy-server-nameserver、hosts分别对应DNS模块的“DNS 服务器”、“代理节点域名解析”、“自定义 Hosts”，通过配置文件编辑时在内核配置（\data\mihomo.yaml）中修改，重启应用后变更会反应在界面上。
