@@ -1,5 +1,6 @@
 # 防误开TUN
 PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,BaiduNetdisk.exe
 
 # 软件站
 DOMAIN-SUFFIX,appinn.net
