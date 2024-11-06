@@ -1,11 +1,13 @@
-# 防误开TUN
+# Downloader
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,BaiduNetdisk.exe
 
-# 软件站
-DOMAIN-SUFFIX,appinn.net
+# IP-CN
+DOMAIN-SUFFIX,kukushouhou.com
+DOMAIN-SUFFIX,bijiago.com
 
-# 规则站
+# IP-!CN
+DOMAIN-SUFFIX,appinn.net
 DOMAIN-SUFFIX,adrules.top
 
 # PT Site
