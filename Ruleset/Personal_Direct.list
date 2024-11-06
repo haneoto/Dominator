@@ -5,6 +5,9 @@ PROCESS-NAME,BaiduNetdisk.exe
 # 软件站
 DOMAIN-SUFFIX,appinn.net
 
+# 规则站
+DOMAIN-SUFFIX,adrules.top
+
 # PT Site
 DOMAIN-SUFFIX,1ptba.com
 DOMAIN-SUFFIX,52pt.site
