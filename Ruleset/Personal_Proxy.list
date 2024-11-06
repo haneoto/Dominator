@@ -22,5 +22,8 @@ DOMAIN,wani.shop-pro.jp
 DOMAIN-SUFFIX,akibablog.net
 DOMAIN-SUFFIX,yaraon-blog.com
 
+# Proxy Tools
+DOMAIN-SUFFIX,metacubex.one
+
 # Extensions
 DOMAIN-SUFFIX,immersivetranslate.com
