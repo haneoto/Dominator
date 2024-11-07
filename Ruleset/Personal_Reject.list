@@ -1,3 +1,5 @@
+OR,((DOMAIN-KEYWORD,stun),(DOMAIN-KEYWORD,turn)),REJECT-DROP
+
 # HttpDNS IP
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list
 IP-CIDR,101.124.19.122/32,no-resolve
