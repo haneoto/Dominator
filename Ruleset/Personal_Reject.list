@@ -1,4 +1,4 @@
-# HttpDNS IP-CIDR
+# HttpDNS IP
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list
 IP-CIDR,101.124.19.122/32,no-resolve
 IP-CIDR,101.91.140.124/32,no-resolve
@@ -39,6 +39,6 @@ IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,no-resolve
 IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
 IP-CIDR6,240e:928:1400:10::25/128,no-resolve
 
-# Suspicious
+# Analytics
 DOMAIN-SUFFIX,hcfy.ai
 DOMAIN-SUFFIX,immersivetranslate.com
