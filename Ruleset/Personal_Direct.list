@@ -1,6 +1,9 @@
-# Downloader
+# Process
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,BaiduNetdisk.exe
+PROCESS-NAME,115chrome.exe
+PROCESS-NAME,TIM.exe
+PROCESS-NAME,WeChat.exe
 
 # IP-CN
 DOMAIN-SUFFIX,kukushouhou.com
