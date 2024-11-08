@@ -42,3 +42,4 @@ IP-CIDR6,240e:928:1400:10::25/128,no-resolve
 # Analytics
 DOMAIN-SUFFIX,hcfy.ai
 DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN,stats.centbrowser.cn
