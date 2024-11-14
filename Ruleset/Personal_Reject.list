@@ -43,3 +43,6 @@ IP-CIDR6,240e:928:1400:10::25/128,no-resolve
 DOMAIN-SUFFIX,hcfy.ai
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN,stats.centbrowser.cn
+DOMAIN-SUFFIX,Serv-U.com
+DOMAIN-SUFFIX,solarwinds.com
+DOMAIN-SUFFIX,rhinosoft.com.cn
