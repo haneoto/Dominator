@@ -65,3 +65,6 @@ DOMAIN-SUFFIX,crabpt.vip
 DOMAIN-SUFFIX,ptvicomo.net
 DOMAIN-SUFFIX,qingwapt.com
 DOMAIN-SUFFIX,invites.fun
+
+# !Reject
+DOMAIN,mcs.zijieapi.com
