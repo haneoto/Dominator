@@ -48,3 +48,6 @@ DOMAIN,downloads.solarwinds.com
 DOMAIN,support.solarwinds.com
 DOMAIN,documentation.solarwinds.com
 DOMAIN,ocsp.digicert.com
+
+# Software
+PROCESS-NAME,Photoshop.exe
