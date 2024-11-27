@@ -51,3 +51,5 @@ DOMAIN,ocsp.digicert.com
 
 # Software
 PROCESS-NAME,Photoshop.exe
+PROCESS-NAME,BandiView.exe
+PROCESS-NAME,Bandizip.exe
