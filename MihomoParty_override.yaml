@@ -251,7 +251,7 @@ rule-providers:
     format: text
     type: http
   Cluster_Reject:
-    url: https://adrules.top/adrules.list
+    url: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list
     path: ./ruleset/Cluster_Reject.list
     behavior: classical
     interval: 86400
