@@ -13,10 +13,11 @@ DOMAIN-SUFFIX,appinn.net
 DOMAIN-SUFFIX,adrules.top
 
 # PT Site
+#DOMAIN-SUFFIX,audiences.me
+#DOMAIN-SUFFIX,pterclub.com
 DOMAIN-SUFFIX,1ptba.com
 DOMAIN-SUFFIX,52pt.site
 DOMAIN-SUFFIX,agsvpt.com
-DOMAIN-SUFFIX,audiences.me
 DOMAIN-SUFFIX,azusa.wiki
 DOMAIN-SUFFIX,btschool.club
 DOMAIN-SUFFIX,carpt.net
@@ -43,7 +44,6 @@ DOMAIN-SUFFIX,okpt.net
 DOMAIN-SUFFIX,ourbits.club
 DOMAIN-SUFFIX,ourhelp.club
 DOMAIN-SUFFIX,pandapt.net
-DOMAIN-SUFFIX,pterclub.com
 DOMAIN-SUFFIX,pttime.org
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptzone.xyz
