@@ -1,5 +1,5 @@
 # Reject white list
-DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,l.qq.com
 
 # Process
 PROCESS-NAME,qbittorrent.exe
