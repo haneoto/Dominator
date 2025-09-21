@@ -1,3 +1,6 @@
+# Reject white list
+DOMAIN-SUFFIX,video.qq.com
+
 # Process
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,BaiduNetdisk.exe
