@@ -1,10 +1,10 @@
-:: ×îĞÂÈÕÖ¾Æô¶¯Æ÷
-:: ½«´ËÎÄ¼ş·ÅÖÃÓÚMihomo PartyÖ÷Ä¿Â¼ÖĞ£¬´´½¨¿ì½İ·½Ê½·ÅÔÚ±ãÓÚÆô¶¯µÄµØ·½£¬ÔËĞĞºó×Ô¶¯´ò¿ª\data\logsÎÄ¼ş¼ĞÏÂµÄ×îĞÂlogÎÄ¼ş¡£
-:: Ê¹ÓÃNotepad4´ò¿ª£¬Ctrl+EndÌøÖÁÄ©ĞĞ£¬ÈÕÖ¾ÓĞĞÂĞ´ÈëÊ±»á¼ÌĞøÌø×ª¡£
+:: æœ€æ–°æ—¥å¿—å¯åŠ¨å™¨
+:: å°†æ­¤æ–‡ä»¶æ”¾ç½®äºClash Partyä¸»ç›®å½•ä¸­ï¼Œåˆ›å»ºå¿«æ·æ–¹å¼æ”¾åœ¨ä¾¿äºå¯åŠ¨çš„åœ°æ–¹ï¼Œè¿è¡Œåè‡ªåŠ¨æ‰“å¼€\data\logsæ–‡ä»¶å¤¹ä¸‹çš„æœ€æ–°core*.logæ–‡ä»¶ã€‚
+:: ä½¿ç”¨Notepad4æ‰“å¼€ï¼ŒCtrl+Endè·³è‡³æœ«è¡Œï¼Œæ—¥å¿—æœ‰æ–°å†™å…¥æ—¶ä¼šç»§ç»­è·³è½¬ã€‚
 @echo off
 set "folder_path=%~dp0data\logs"
 
-for /f "delims=" %%i in ('dir /b /a-d /o-d "%folder_path%\*.log"') do (
+for /f "delims=" %%i in ('dir /b /a-d /o-d "%folder_path%\core*.log"') do (
     set "latest_log=%%i"
     goto :found
 )
@@ -14,3 +14,4 @@ for /f "delims=" %%i in ('dir /b /a-d /o-d "%folder_path%\*.log"') do (
 powershell -Command "Start-Process notepad.exe '%folder_path%\%latest_log%'"
 
 :end
+
