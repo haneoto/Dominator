@@ -35,6 +35,7 @@ nameserverPolicy:
 
   default-nameserver:
     - quic://223.5.5.5:853
+    - quic://223.6.6.6:853
   nameserver:
     - https://1.1.1.1/dns-query#Proxies
     - https://208.67.222.222/dns-query#Proxies
@@ -47,5 +48,6 @@ nameserverPolicy:
 
 hosts:
   doh.apad.pro: 220.185.184.17
+
 
 
