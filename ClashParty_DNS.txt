@@ -30,9 +30,11 @@ nameserverPolicy:
 # 以上本地DNS分流仅对直连与非代理域名生效，代理域名直接走远程解析。
 
 
-# nameserver、proxy-server-nameserver、direct-nameserver、hosts分别对应DNS模块的“DNS 服务器”、“代理节点域名解析”、“直连 DNS 服务器”、“自定义 Hosts”，通过配置文件编辑时在内核配置（\data\mihomo.yaml）中修改，重启应用后变更会反应在界面上。
+# default-nameserver、nameserver、proxy-server-nameserver、direct-nameserver、hosts分别对应DNS模块的“DNS 服务器域名解析”、“默认解析服务器”、“代理服务器域名解析”、“直连解析服务器”、“自定义 Hosts”，通过配置文件编辑时在内核配置（\data\mihomo.yaml）中修改，重启应用后变更会反应在界面上。
 # 以上三项的覆写优先级：应用DNS模块内修改保存（重新开关DNS模块也会覆写当前设置） > 启动时读取内核配置（mihomo.yaml） > 覆写模块
-    
+
+  default-nameserver:
+    - quic://223.5.5.5:853
   nameserver:
     - https://1.1.1.1/dns-query#Proxies
     - https://208.67.222.222/dns-query#Proxies
@@ -45,4 +47,5 @@ nameserverPolicy:
 
 hosts:
   doh.apad.pro: 220.185.184.17
+
 
