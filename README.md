@@ -21,11 +21,11 @@
 - **[Loyalsoldier Geo数据库 (Clash.Meta默认Geo数据库)](https://github.com/Loyalsoldier/v2ray-rules-dat)**
 - **[GeoSite清单](https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical)**
 
-### Mihomo Party 覆写示例
+### Clash Party 覆写示例
 
-- **[Mihomo Party 覆写运行逻辑](https://mihomo.party/docs/guide/override/yaml)**
-- **[Mihomo Party 常用覆写脚本/示例](https://github.com/mihomo-party-org/override-hub)**
-- **[Mihomo Party 墨鱼覆写配置](https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml)**
+- **[Clash Party 覆写运行逻辑](https://clashparty.org/docs/guide/override/yaml)**
+- **[Clash Party 常用覆写脚本/示例](https://github.com/mihomo-party-org/override-hub)**
+- **[Clash Party 墨鱼覆写配置](https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml)**
 
 ### Loon / Quantumult X 相关资源
 
