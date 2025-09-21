@@ -34,8 +34,8 @@ nameserverPolicy:
 # 以上三项的覆写优先级：应用DNS模块内修改保存（重新开关DNS模块也会覆写当前设置） > 启动时读取内核配置（mihomo.yaml） > 覆写模块
 
   default-nameserver:
-    - quic://223.5.5.5:853
-    - quic://223.6.6.6:853
+    - quic://223.5.5.5
+    - tls://223.5.5.5
   nameserver:
     - https://1.1.1.1/dns-query#Proxies
     - https://208.67.222.222/dns-query#Proxies
@@ -48,6 +48,7 @@ nameserverPolicy:
 
 hosts:
   doh.apad.pro: 220.185.184.17
+
 
 
 
