@@ -1,4 +1,4 @@
-# Mihomo Party 覆写配置
+# Clash Party 覆写配置
 
 # dns和hosts字段后加!用于覆盖订阅配置中该字段的整个对象，如不加!则递归合并。详见：https://clashparty.org/docs/guide/override/yaml
 
