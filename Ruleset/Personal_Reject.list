@@ -53,3 +53,8 @@ DOMAIN,ocsp.digicert.com
 PROCESS-NAME,Photoshop.exe
 PROCESS-NAME,BandiView.exe
 PROCESS-NAME,Bandizip.exe
+PROCESS-NAME,HuYanBao.exe
+PROCESS-NAME,Serv-U-Tray.exe
+PROCESS-NAME,YunDetectService.exe
+PROCESS-NAME,copyq.exe
+
