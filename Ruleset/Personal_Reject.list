@@ -40,14 +40,12 @@ IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
 IP-CIDR6,240e:928:1400:10::25/128,no-resolve
 
 # Analytics
-DOMAIN-SUFFIX,hcfy.ai
 DOMAIN,analytics.immersivetranslate.com
 DOMAIN,stats.centbrowser.cn
 DOMAIN,www.Serv-U.com
 DOMAIN,downloads.solarwinds.com
 DOMAIN,support.solarwinds.com
 DOMAIN,documentation.solarwinds.com
-DOMAIN,ocsp.digicert.com
 
 # Software
 PROCESS-NAME,Photoshop.exe
@@ -57,4 +55,5 @@ PROCESS-NAME,HuYanBao.exe
 PROCESS-NAME,Serv-U-Tray.exe
 PROCESS-NAME,YunDetectService.exe
 PROCESS-NAME,copyq.exe
+
 
