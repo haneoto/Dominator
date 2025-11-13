@@ -19,7 +19,8 @@ nameserverPolicy:
     - 180.184.1.1
     - 180.184.2.2
   geosite:baidu,iqiyi:
-    - 180.76.76.76
+    - quic://223.5.5.5:853
+    - https://1.12.12.12/dns-query
   geosite:cn,microsoft,apple:
     - quic://223.5.5.5:853
     - https://1.12.12.12/dns-query
@@ -49,6 +50,7 @@ nameserverPolicy:
 
 hosts:
   doh.apad.pro: 220.185.184.17
+
 
 
 
