@@ -16,7 +16,7 @@
 - **[Clash.Meta Wiki-older](https://clash-meta.gitbook.io/clash.meta-wiki-older)**
 - **[虚空终端 Docs](https://wiki.metacubex.one/config/)**
 
-### GeoIP/GeoSite 数据库
+### GeoIP / GeoSite 数据库
 
 - **[Loyalsoldier Geo数据库 (Clash.Meta默认Geo数据库)](https://github.com/Loyalsoldier/v2ray-rules-dat)**
 - **[GeoSite清单](https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical)**
