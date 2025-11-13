@@ -1,4 +1,4 @@
-/* 默认 */
+/* 默认 (4K) */
 
 span {
   font-size: max(14px, 1em);
@@ -242,3 +242,4 @@ span {
     --nextui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.04), 0px 30px 60px 0px rgb(0 0 0 / 0.12), 0px 0px 1px 0px rgb(0 0 0 / 0.3) !important;
     --nextui-hover-opacity: .8 !important;
 }
+
