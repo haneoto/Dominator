@@ -21,7 +21,7 @@
 - **[Loyalsoldier Geo数据库 (Clash.Meta默认Geo数据库)](https://github.com/Loyalsoldier/v2ray-rules-dat)**
 - **[GeoSite清单](https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite/classical)**
 
-### Clash Party 覆写示例
+### Clash Party / Sparkle 覆写示例
 
 - **[Clash Party 覆写运行逻辑](https://clashparty.org/docs/guide/override/yaml)**
 - **[Clash Party 常用覆写脚本/示例](https://github.com/mihomo-party-org/override-hub)**
