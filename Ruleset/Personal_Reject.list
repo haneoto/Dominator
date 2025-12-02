@@ -42,18 +42,17 @@ IP-CIDR6,240e:928:1400:10::25/128,no-resolve
 # Analytics
 DOMAIN,analytics.immersivetranslate.com
 DOMAIN,stats.centbrowser.cn
-DOMAIN,www.Serv-U.com
-DOMAIN,downloads.solarwinds.com
-DOMAIN,support.solarwinds.com
-DOMAIN,documentation.solarwinds.com
+#DOMAIN,www.Serv-U.com
+#DOMAIN,downloads.solarwinds.com
+#DOMAIN,support.solarwinds.com
+#DOMAIN,documentation.solarwinds.com
 
 # Software
 PROCESS-NAME,Photoshop.exe
 PROCESS-NAME,BandiView.exe
 PROCESS-NAME,Bandizip.exe
 PROCESS-NAME,HuYanBao.exe
+PROCESS-NAME,Serv-U.exe
 PROCESS-NAME,Serv-U-Tray.exe
 PROCESS-NAME,YunDetectService.exe
 PROCESS-NAME,copyq.exe
-
-
