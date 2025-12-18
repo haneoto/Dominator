@@ -69,6 +69,9 @@ DOMAIN-SUFFIX,ptvicomo.net
 DOMAIN-SUFFIX,qingwapt.com
 DOMAIN-SUFFIX,invites.fun
 
+# Speed test
+DOMAIN-SUFFIX,speed.do
+
 # Download
 DOMAIN-SUFFIX,e-daixia.top
 DOMAIN-SUFFIX,cdnedaixia.top
