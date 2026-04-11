@@ -67,7 +67,7 @@ proxy-groups:
       - SG
       - HK
     include-all: true
-    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
+    filter: (?i)越南|Vietnam|泰国|Thailand|印度尼西亚|Indonesia|菲律宾|Philippines|马来西亚|Malaysia|文莱|Brunei|柬埔寨|Kampuchea|老挝|Laos|缅甸|Burma
   - name: YouTube
     type: select
     proxies:
