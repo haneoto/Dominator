@@ -1,4 +1,4 @@
-﻿## 补充规则
+## 补充规则
 
 # YouTube
 DOMAIN-SUFFIX,googlevideo.com
@@ -13,6 +13,9 @@ DOMAIN-SUFFIX,hath.network
 
 # FANZA
 DOMAIN,cc3001.dmm.co.jp
+
+# Gofile
+DOMAIN-SUFFIX,gofile.io
 
 # Others
 DOMAIN-SUFFIX,ai18.pics
