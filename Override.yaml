@@ -33,6 +33,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
+      - Low-rate
       - JP
       - TW
       - HK
@@ -42,6 +43,7 @@ proxy-groups:
   - name: CDN/DL-Global
     type: select
     proxies:    
+      - Low-rate
       - Proxies
       - PASS
       - DIRECT
@@ -72,6 +74,7 @@ proxy-groups:
     type: select
     proxies:
       - Proxies
+      - Low-rate
       - JP
       - TW
       - HK
@@ -97,11 +100,16 @@ proxy-groups:
       - SG
       - US      
     include-all: true
+  - name: Low-rate
+    include-all: true
+    filter: (?i)X]
+    exclude-filter: (?i)XSUS
+    type: select
   - name: JP
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     exclude-filter: (?i)XSUS
-    type: select  
+    type: select
   - name: TW
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
