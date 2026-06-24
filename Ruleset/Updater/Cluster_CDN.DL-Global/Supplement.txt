@@ -21,4 +21,7 @@ DOMAIN-SUFFIX,gofile.io
 DOMAIN-SUFFIX,ai18.pics
 DOMAIN-SUFFIX,idol69.net
 
+# PikPak
+DOMAIN-SUFFIX,mypikpak.com
+
 ## Sukka规则
